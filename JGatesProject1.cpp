@@ -2,7 +2,7 @@
 /*********************************************************
 * This template is made for XCode compiler
 * file name: JGatesProject1.cpp
-* programmer name: Jossie Gates
+* programmer name: ---------
 * date created: 04/21/2024
 * date of last revision: 05/05/2024
 * details of the revision: finishing the program
