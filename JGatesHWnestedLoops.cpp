@@ -1,7 +1,7 @@
 /*********************************************************
 * This template is made for XCode compiler
 * file name: JGatesHWnestedLoops.cpp
-* programmer name: Jossie Gates
+* programmer name: -----------
 * date created: 04/04/2024
 * date of last revision: 04/07/2024
 * details of the revision: fixing pyramid's format, adding comments
