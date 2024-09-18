@@ -1,4 +1,4 @@
-// Jossie Gates 1338229
+// 
 //  HW
 //  JGates_findNums
 //  create unique array of numbers
