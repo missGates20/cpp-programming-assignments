@@ -1,4 +1,4 @@
-//  Jossie Gates 1338229
+//  
 //  JGates_monthlyBill.cpp
 //  HW
 //  Calculate best phone plan
