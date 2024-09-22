@@ -11,16 +11,24 @@ using namespace std;
 //function prototypes
 void getSize(int&);
 /*
- purpose:
- in
+ purpose: get the size of input from user
+ input: size (call by ref)
+ output: none (size)
+ process: ask for a size between 1-50, and use this size value for the variable
  */
 bool getInput(float [10][5], float[10][5], int, bool&);
 /*
- 
+ purpose: getting array input from user (amount of input dictated by size value)
+ input: numInput1, numInput2, size, anyNegatives
+ output: anyNegatives (true or false)
+ process: get input from user to add to numInput1/numInput2. If input is negative, change it to positive and add it to numInput2.
  */
 void displayResult(float [10][5], float [10][5], int, bool);
 /*
- 
+ purpose: display the values in arrays numInput1 and numInput2
+ input: numInput1, numInput2, anyNegatives
+ output: none (display message under anyNegatives if it == false, numInput1, and numInput2.
+ process: use for loop to display arrays
  */
 int main() {
     //array declaration
