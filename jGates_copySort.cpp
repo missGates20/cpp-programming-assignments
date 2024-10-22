@@ -1,5 +1,5 @@
 // File name: jGates_copySort.cpp
-// Author: Jossie Gates
+// Author: JGates
 // ID: 1338229
 // Last version date: 10/9/2024
 // Short description: sort array
@@ -16,7 +16,7 @@ void displayD(int[], int);//descending
 
 int main() {
 // program introduction
-    cout<<"This program will allow you to input integers into an array\nand the system will print out in ascending or descending order.\n";
+    cout<<"This program will allow you to input numbers into an array\nand the system will print out in ascending or descending order.\n";
     //variable/array declarations
     int input[100];
     int size;
@@ -24,8 +24,8 @@ int main() {
     
     //call functions
     getSize(size);
-    //use size for copy array
-    int copy[size];
+    //copy array
+    int copy[100];
    
     int *ptr = fillArray(input, size);//assign ptr, so it can used in copyArray function
     copyArray(ptr, copy, size);
@@ -160,6 +160,7 @@ void displayD(int copy[], int size){
         cout << *(copy + e) << " ";}
     cout << "}" <<endl;
 }
+
 /*
 Test data:
 Sample 1:
